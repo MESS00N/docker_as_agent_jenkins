@@ -7,6 +7,7 @@ pipeline {
       }
       steps {
         sh '''
+        cd hello-world-app
         mvn clean package
         mvn test
         java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.Hello
