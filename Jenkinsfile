@@ -21,7 +21,6 @@ pipeline {
       steps {
         sh '''
         npm init
-        npm install
         npm start &
         node hello.js
         '''
