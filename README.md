@@ -112,7 +112,7 @@ The docker agent configuration is now successful.
 
 10. Console output of the same
 
-'''
+```
 Started by user DAA_test
 Obtained Jenkinsfile from git https://github.com/MESS00N/docker_as_agent_jenkins.git
 [Pipeline] Start of Pipeline
@@ -315,7 +315,7 @@ $ docker rm -f --volumes 9bfb8b8e648fff29a53307931d2be304ef0030d25303465ba1db7a4
 [Pipeline] // stage
 [Pipeline] End of Pipeline
 Finished: SUCCESS
-'''
+```
 
 
 
