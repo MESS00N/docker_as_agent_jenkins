@@ -23,7 +23,6 @@ pipeline {
         npm install
         npm test
         npm start &
-        node hello.js
         '''
       }
     }
