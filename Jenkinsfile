@@ -20,6 +20,7 @@ pipeline {
       }
       steps {
         sh '''
+        npm test
         npm install
         npm start &
         node hello.js
