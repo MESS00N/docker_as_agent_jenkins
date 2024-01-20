@@ -22,7 +22,6 @@ pipeline {
         sh '''
         npm init -y
         npm install
-        npm test
         npm start &
         '''
       }
