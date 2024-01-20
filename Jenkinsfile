@@ -20,7 +20,6 @@ pipeline {
       }
       steps {
         sh '''
-        npm init -y
         npm install
         npm start &
         '''
