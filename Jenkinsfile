@@ -19,6 +19,8 @@ pipeline {
       }
       steps {
         sh '''
+        npm init -y
+        npm install express
         npm install
         npm test
         npm start &
