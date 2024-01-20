@@ -91,6 +91,22 @@ systemctl restart docker
 
 The docker agent configuration is now successful.
 
+**6.Creating a new pipeline job**
+
+
+![image](https://github.com/MESS00N/docker_as_agent_jenkins/assets/140514541/43e4340b-93eb-4b9c-aec1-40d5f6077276)
+
+
+**7.Update the jenkins configuration with the git path**
+
+![image](https://github.com/MESS00N/docker_as_agent_jenkins/assets/140514541/8c29f791-d040-43ef-8ae1-1df97ce84509)
+
+
+
+8.
+
+
+
 
 
 
